@@ -1,0 +1,33 @@
+<html>
+<body bgcolor = #d4a3ae>
+
+<center>
+    <h1> CALIFORNIA HOUSE PRICE PREDICTION</h1><br>
+    
+    <form method="POST", action="{{url_for('home')}}">
+        <b>
+            longitude : <input type = "text", name = 'a', placeholder="longitude value"> <br><br>
+            latitude : <input type = "text", name = 'b', placeholder="latitude value"> <br><br>
+            housing_median_age : <input type = "text", name = 'c', placeholder="housing_median_age value"> <br><br>
+            total_rooms : <input type = "text", name = 'd', placeholder="total_rooms value"> <br><br>
+            total_bedrooms : <input type = "text", name = 'e', placeholder="total_bedrooms value"> <br><br>
+            population : <input type = "text", name = 'f', placeholder="population value"> <br><br>
+            households : <input type = "text", name = 'g', placeholder="households value"> <br><br>
+            median_income : <input type = "text", name = 'h', placeholder="median_income value"> <br><br>
+            H_OCEAN : <input type = "text", name = 'i', placeholder="H_OCEAN value"> <br><br>
+            INLAND : <input type = "text", name = 'j', placeholder="INLAND value"> <br><br>
+            ISLAND : <input type = "text", name = 'k', placeholder="ISLAND value"> <br><br>
+            NEAR_BAY : <input type = "text", name = 'l', placeholder="NEAR_BAY value"> <br><br>
+            NEAR_OCEAN : <input type = "text", name = 'm', placeholder="NEAR_OCEAN value"> <br><br>
+            bedroom_ratio : <input type = "text", name = 'n', placeholder="bedroom_ratio value"> <br><br>
+            household_rooms : <input type = "text", name = 'o', placeholder="household_rooms value"> <br><br>
+
+        </b>
+        <input type="submit", value="predict">
+    </form>
+    <img src="static\homes-in-california-1.jpg">
+</center>
+
+
+</body>
+</html>
